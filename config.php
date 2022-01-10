@@ -1,8 +1,8 @@
 <?php
 //konfiguracija baze podataka
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
+$dbuser = 'rwa192022';
+$dbpass = 'csdigital2022';
 $dbname = 'rent';
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');
