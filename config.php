@@ -3,7 +3,7 @@
 $dbhost = 'localhost';
 $dbuser = 'rwa192022';
 $dbpass = 'csdigital2022';
-$dbname = 'rent';
+$dbname = 'rwa192022';
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');
 mysqli_select_db($conn, $dbname);
